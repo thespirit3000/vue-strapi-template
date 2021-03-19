@@ -15,8 +15,6 @@ const apolloProvider = new VueApollo({
 });
 
 const router = new VueRouter({
-  mode: "history",
-  routes: [{ path: "/", components: require("./containers/Articles.vue") }],
 });
 
 new Vue({

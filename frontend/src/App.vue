@@ -1,15 +1,13 @@
 <template>
   <div id="app">
-    <Nav />
     <router-view :key="$route.fullPath"></router-view>
   </div>
 </template>
 
 <script>
-import Nav from "./components/Nav";
 export default {
   name: "App",
-  components: { Nav },
+  components: { },
 };
 </script>
 
